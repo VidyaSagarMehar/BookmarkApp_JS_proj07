@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bookmarks</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="background-image">
+<div class="outer-container">
+    <div class="container">
+        <h2 class="headings">My Bookmarks</h2>
+        <div class="form">
+            <!-- <label for="title">Title</label> -->
+            <input type="text" id="title" placeholder="Enter Title"> <br> <br>
+            <!-- <label for="link">Link</label> -->
+            <input type="text" id="link" placeholder="Enter link"> <br> <br>
+            <button id="btn" onclick="AddBookmark()">Add to Bookmarks</button> <br> <br>
+            <button id="btn" onclick="removeItem()">Remove Bookmarks</button>
+        </div>
+
+        <div class="bookmarks">
+            <p id="">Click on the link to copy</p>
+            <ul id="bookmark-list">
+                <!-- <li>
+                    <input type="checkbox" name="check" id="mycheck" checked> <h3 class="title-p">Mozila Developer network</h3> <p class="link-p">https://developer.mozilla.org/en-US/</p>
+                </li>
+                <li>
+                    <input type="checkbox" name="check" id="mycheck" checked> <h3 class="title-p">UIcolor picker</h3> <p class="link-p">learncodeonline.io</p>
+                </li>
+                <li>
+                    <input type="checkbox" name="check" id="mycheck" checked> <h3 class="title-p">Title</h3> <p class="link-p">Link 3</p>
+                </li> -->
+
+            </ul>
+        </div>
+    </div>
+</div>
+    <script src="./script.js"></script>
+</body>
+</html>

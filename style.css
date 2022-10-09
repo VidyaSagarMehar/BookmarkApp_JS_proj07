@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,900;1,400;1,600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+}
+body{
+    background-color: #0D0D0D;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-size: 40px;
+
+}
+#title, #link{
+    border-radius: 5px;
+    width: 25em;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    color: #0D0D0D;
+    border: none;
+}
+input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #0d0d0db4;
+    font-size: 18px;
+}
+#btn{
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 5px;
+    color: #0D0D0D;
+    padding: 5px 10px;
+}
+
+div.container{
+    width: 50vw;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 60px 0px #0ff;
+
+}
+#bookmark-list{
+    display: flex;
+    flex-direction: column;
+}
+ul li{
+    margin-left: -250px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+
+}
+.link-p{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+#mycheck{
+
+    margin-right: 20px;
+}
+
+.link-p:hover{
+    cursor: pointer;
+}
+#copyText{
+    position: absolute;
+    margin-left: -75px;
+    text-align: center;
+    margin-top: 0px;
+}
