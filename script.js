@@ -53,7 +53,7 @@ function AddBookmark() {
 			setTimeout(() => {
 				document.getElementById("copyText").innerText =
 					"Click on the link to copy";
-			}, 1000);
+			}, 2000);
 		};
 	}
 }
