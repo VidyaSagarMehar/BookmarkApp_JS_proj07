@@ -1,8 +1,8 @@
-# Hi, I'm Vidya Sagar Mehar ! 👋
+# Hi, I'm [Vidya Sagar Mehar](https://vidya-sagar-portfolio.netlify.app/) ! 👋
 
 
-### 🚀 I'm a front-end developer...
-
+## 🚀 I'm a front-end developer...
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## Project Title - BOOKMARK WEB APP JAVASCRIPT PROJECT 07
 
