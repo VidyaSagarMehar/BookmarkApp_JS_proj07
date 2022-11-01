@@ -4,7 +4,7 @@
 ## 🚀 I'm a front-end developer...
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## Project Title - BOOKMARK WEB APP JAVASCRIPT PROJECT 07
+## Project Title - BOOKMARK WEB APP JAVASCRIPT PROJECT
 
 A JavaScript Project that allows to add bookmarks and by clicking on the added bookmark link you can copy the bookmarked link on your clipboard. 
 
